@@ -1,7 +1,6 @@
 beautifulsoup4==4.6.0
 geographiclib==1.49
 geopy==1.15.0
-pickleDB==0.6.2
 python-google-places==1.4.1
 selenium==3.13.0
 Shapely==1.6.4.post2

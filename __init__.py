@@ -1,7 +1,7 @@
 import scrape_pt_data
 import get_place_data
 
-def populartimes_search(api_key, keyword=None, language='en', lat_lng=None, location=None, name=None, 
+def popular_times_search(api_key, keyword=None, language='en', lat_lng=None, location=None, name=None, 
                 pagetoken=None, radius=3200, rankby='prominence', sensor=False, type=None, types=[]): 
     browser = scrape_pt_data.get_headless_browser()
     resulting_places = get_place_data.nearby_search(api_key, keyword=keyword, language=language, lat_lng=lat_lng, 
