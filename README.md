@@ -20,7 +20,8 @@ pip install popular-times
 
 We can use the package by running this function
 ```
-popular_times_search(api_key, keyword, language, lat_lng, location, name, pagetoken, radius, rankby, sensor, type, types)
+>>> import popular_times as pt
+>>> pt.popular_times_search(api_key, keyword, language, lat_lng, location, name, pagetoken, radius, rankby, sensor, type, types)
 ```
 
 The parameters are as follows (taken from python-google-places README): 
