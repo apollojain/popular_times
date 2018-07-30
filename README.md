@@ -1,6 +1,6 @@
 # Popular Times Library
 
-This package allows for users to gain access to the Google Popular Times feature. To use this package, it is first necessary to install geckodriver, which will be used by Selenium to spin up a headless Firefox browser. Google how to do this on your OS. On Macs, the command is: 
+This package allows for users to gain access to the Google Popular Times feature. To use this package, it is first necessary to install geckodriver, which will be used by Selenium to spin up a headless Firefox browser. Google how to do this on your OS. On Mac, the command is: 
 ```
 brew install geckodriver
 ```
@@ -80,3 +80,4 @@ The output will be an array of dictionaries that looks like this:
     ...
 ]
 ```
+A quick note on this package: While this package can easily be used for mass scraping, it is against Google's terms and conditions for you to do so. Please do not violate these conditions. Doing so puts you at risk for losing your privileges or worse. 
